@@ -1,0 +1,41 @@
+/* Style the "Download" button */
+.card .download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(46deg, #00ccff 0%, #d621bb 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+    cursor: pointer;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+
+    padding: 10px;
+    border-radius: 80px;
+  }
+  
+  /* Style the "Download" button on hover */
+  .card .download:hover {
+    background: linear-gradient(25deg, #23193b 0%, #1b8fcd 100%);
+    box-shadow: 0 5px #5b6b6c;
+    transform: translateY(4px);
+  }
+  
+  /* Style the "Download" button on click */
+  .card .download:active {
+    background: linear-gradient(76deg, #c62f94 0%, #213fd6 100%);
+    box-shadow: 0 5px #ac1515;
+    transform: translateY(4px);
+  }
+  h2{
+    text-decoration:underline ; color:rgb(15, 209, 47);
+    font-family:"myfont";
+  }
